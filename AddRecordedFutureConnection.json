@@ -17,7 +17,7 @@
     },
     "variables": {
         "secretName": "RecordedFuture",
-        "secretValueP1": "{'AuthenticationType': 'Static', 'Properties': {'apiKey': '<apiKey>'}}",
+        "secretValueP1": "{'AuthenticationType': 'Static', 'Properties': {'apiKeyaaaaaaaaaaaaaa': '<apiKey>'}}",
         "secretValue": "[replace(variables('secretValueP1'),'<apiKey>',parameters('apiKey'))]"
     },
     "resources": [
